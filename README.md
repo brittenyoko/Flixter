@@ -5,7 +5,7 @@ An app that allows users to view currently playing movies.
 
 **Flixter** shows the latest movies currently playing in theaters. The app utilizes the Movie Database API to display images and basic information about these movies to the user.
 
-Time spent: **X** hours spent in total
+Time spent: 15 hours spent in total
 
 ## User Stories
 
@@ -39,7 +39,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+It was really difficult to resolve bugs that were due to small errors like inconsistent variable names. It was also difficult to figure out formatting for landscape mode when the user flips the device.
 
 ## Open-source libraries used
 
