@@ -2,6 +2,7 @@ package com.example.flixter;
 
 import android.content.Context;
 import android.content.res.Configuration;
+import android.text.method.ScrollingMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -69,6 +70,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder>{
         //populate the view with movie data
         holder.tvTitle.setText(movie.getTitle());
         holder.tvOverview.setText(movie.getOverview());
+        holder.tvOverview.setMovementMethod(new ScrollingMovementMethod());
 
         // determines the current orientation
         boolean isPortrait = context.getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT;
@@ -93,6 +95,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder>{
                 .placeholder(placeholderId)
                 .error(placeholderId)
                 .into(imageView);
+
 
     }
 
