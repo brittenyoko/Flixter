@@ -49,7 +49,7 @@ It was really difficult to resolve bugs that were due to small errors like incon
 
 ## License
 
-    Copyright 2019 Britteny Okorom-Achuonye
+    Copyright 201 Britteny Okorom-Achuonye
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
